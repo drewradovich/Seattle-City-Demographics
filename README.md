@@ -1,2 +1,7 @@
 # Seattle-City-Demographics
 This is a project that contains a dashboard showcasing Seattle city demographics using the 2012 American Community Survey.
+The included files are the final dashboard containing several tabs for analyzing the community demographics of the city of Seattle. These demographics were collected from the 2012 American Community Survey through the Census API and contain data relating to race and ethnicity, income, land use, and rent. I also created new variables to analyze the change in community from 2000 to 2012. These variables include change in median home value (mhv.change) and growth in median home value (mhv.growth) as a standardized observation of change in home value.
+
+This project aims to create a platform for identifying neighborhood change and understanding the factors that create it. The drivers of change tab allows for the creation of regression models using the included variables to better understand the impact that each variable has on community change and how variables interact with each other. The 'Community Demographics' and 'Neighborhoods' tabs allow for visual exploration of Seattle city demographics. The first map can be adjusted to view the variable of your choice. In contrast, the second tab shows the clustering of all demographics and how they create neighborhoods within the Seattle city limits based on shared characteristics.
+
+This project was created as part of my coursework at Arizona State University in the Master of Science, Program Evaluation and Data Analytics program.
