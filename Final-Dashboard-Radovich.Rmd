@@ -15,7 +15,7 @@ runtime: shiny
 # PACKAGES 
 
 
-# dashboard layout, widgets, and uploading
+# Dashboard layout, widgets, and uploading
 
 library( flexdashboard )
 library( shiny )
@@ -50,7 +50,7 @@ library( pals )
 ```{r}
 # DATA STEPS 
 
-# load dorling cartogram from github
+# Load Dorling cartogram from GitHub
 # map already contains census data and groups from clustering 
 
 github.url <- "https://raw.githubusercontent.com/drewradovich/ASU-MSDS-Projects/main/sea_dorling.geojson"
